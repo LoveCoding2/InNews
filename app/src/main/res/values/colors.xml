@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <color name="click_normal">#BD8B62</color>
+    <color name="diancoffee_choose">#BDA18A</color>
+    <color name="price_choosebutton">#0D9F67</color>
+    <color name="star">#FF9B00</color>
+    <color name="shouye_xiala">#7F5844</color>
+    <color name="tab_bottom">#5A2E2F</color>
+    <color name="qing_coffee">#F99C50</color>
+    <color name="content_div">#E6E6E6</color>
+    <color name="tab_bottom_above_div">#B3B3B3</color>
+    <color name="shouye_below_div">#CCCCCC</color>
+    <color name="blue">#191f60</color>
+    <color name="white">#ffffff</color>
+    <color name="common">#F5F5F5</color>
+    <color name="basic_bg">#f7f7fa</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="title_color">#ffffff</color>
+    <color name="night_mask">#00000000</color>
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="accent">@color/primary</color>
+    <color name="black">#212121</color>
+
+
+</resources>

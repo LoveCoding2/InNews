@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+  <!--   <RelativeLayout
+        android:id="@+id/citylinear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       >
+        
+        <ImageView 
+            android:id="@+id/im1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/weizhi"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/te1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:text="选择城市"
+            android:textSize="20sp"
+             android:layout_marginTop="10dp"/>
+        
+    </RelativeLayout> -->
+    
+    
+    
+    <ListView 
+        android:id="@+id/cityview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+    </ListView>
+    
+
+</LinearLayout>

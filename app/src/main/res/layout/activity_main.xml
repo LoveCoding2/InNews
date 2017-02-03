@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/topbar" />
+    <!-- 标题栏 -->
+
+    <!-- 可以左右滑动的顶部导航栏 -->
+
+    <HorizontalScrollView
+        android:id="@+id/hsv_view"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" >
+			<!-- 这里是放置水平位置的布局 -->
+            <LinearLayout
+                android:id="@+id/hsv_title"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+            </LinearLayout>
+
+             <!--下划线 -->
+            <ImageView
+                android:id="@+id/hsv_image_line"
+                android:layout_width="50dp"
+                android:layout_height="4dp"
+                android:layout_alignParentBottom="true"
+                android:background="#EA4E3C" />
+        </RelativeLayout>
+    </HorizontalScrollView>
+
+    
+   
+            <!-- 这是一个ViewPager 里面可以放置flagment -->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </android.support.v4.view.ViewPager>
+
+
+
+</LinearLayout>
